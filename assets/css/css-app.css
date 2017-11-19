@@ -156,11 +156,7 @@ a:hover {
 	height: 37px
 }
 .logo {
-	margin: 100px 0 40px 0;
-}
-.logo img{
-	width: 150px; 
-	height: 37px
+	margin: 30px 0 40px 0;
 }
 .landing h1{
 	font-size: 56px;
@@ -647,7 +643,7 @@ and (min-width : 768px)
 and (max-width : 1024px) 
 and (orientation : landscape) {
 	.logo {
-		margin: 100px 0 30px 0;
+		margin: 30px 0 30px 0;
 	}
 	.landing h1{
 		margin: 60px 0 60px 0;
@@ -684,7 +680,7 @@ and (orientation : landscape) {
 /* smart-phone ----------- */
 @media (max-width: 767px) {
 	.logo {
-		margin: 40px 0 30px 0;
+		margin: 12px 0 30px 0;
 	}
 	.more {
 		margin-bottom: 40px;
@@ -720,7 +716,7 @@ and (orientation : landscape) {
 /* iPhone 6 (landscape) ----------- */
 @media (max-width: 667px) {
 	.logo {
-		margin: 30px 0 30px 0;
+		margin: 9px 0 30px 0;
 	}
 	.landing h1{
 		font-size: 50px;
@@ -749,7 +745,7 @@ and (orientation : landscape) {
 /* iPhone 5 (landscape) ----------- */
 @media (max-width: 568px){
 	.logo {
-		margin: 15px 0 15px 0;
+		margin: 4px 0 15px 0;
 	}
 	.landing h1{
 		font-size: 40px;
@@ -827,7 +823,7 @@ and (orientation : landscape) {
 /* iPhone 4/5 (portrait) ----------- */
 @media (max-width: 320px) {
 	.logo {
-		margin: 30px 0 20px 0;
+		margin: 9px 0 20px 0;
 	}
 	.landing h1{
 		margin: 20px 0 35px 0;
