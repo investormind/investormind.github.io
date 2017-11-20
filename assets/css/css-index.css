@@ -243,10 +243,13 @@ a:hover {
 #policy {
 	padding: 100px 0 70px;
 }
-#intro {
+div.section {
 	padding: 100px 0 70px;
 }
-#intro h2 {
+div.post {
+	padding: 30px 0 21px;
+}
+div.section h2 {
 	font-size: 40px;
 	font-weight: 300;
 	margin: 15px 0 15px 0;
@@ -433,11 +436,11 @@ a:hover {
 	background: #1f96e0;
 	color: white;
 }
-#client {
+.info-section {
 	background: #f6f6f6;
-	padding: 70px 0 70px;
+	padding: 0px 0 35px;
 }
-#client img {
+.info-section img {
 	max-height: 80px;
 	margin: 0 20px;
 	opacity: 1;
@@ -445,7 +448,7 @@ a:hover {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 }
-#client img:hover {
+.info-section img:hover {
 	opacity: 0.7;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -727,16 +730,19 @@ and (orientation : portrait) {
 	.btn-price {
 		padding: 7px 25px;
 	}
-	#intro {
+	div.section {
 		padding: 30px 0 50px;
+	}
+	div.post {
+		padding: 10px 0 17px;
 	}
 	#policy {
 		padding: 30px 0 50px;
 	}
-	#intro h2, #feature-2 h2 {
+	div.section h2, #feature-2 h2 {
 		text-align: center;
 	}
-	#intro p, #feature-2 p {
+	div.section p, #feature-2 p {
 		text-align: center;
 	}
 	.btn-section {
@@ -758,7 +764,7 @@ and (orientation : portrait) {
 	.feature-2-pic {
 		margin-top: 40px;
 	}
-	#client img {
+	.info-section img {
 		margin: 10px 0 10px;
 		max-height: 40px;
 	}	
@@ -805,7 +811,7 @@ and (orientation : landscape) {
 	.feature-2-pic {
 		margin-top: 50px;
 	}
-	#client img {
+	.info-section img {
 		max-height: 45px;
 	}	
 	.video-header {
@@ -824,17 +830,20 @@ and (orientation : landscape) {
 	.signup-header {
 		margin: 70px 0 80px;
 	}
-	#intro {
+	div.section {
 		padding: 70px 0 70px;
+	}
+	div.post {
+		padding: 21px 0 21px;
 	}
 	#policy {
 		padding: 70px 0 70px;
 	}
-	#intro h2, #feature-2 h2 {
+	div.section h2, #feature-2 h2 {
 		font-weight: 150;
 		text-align: center;
 	}
-	#intro p, #feature-2 p {
+	div.section p, #feature-2 p {
 		text-align: center;
 	}
 	.btn-section {
@@ -865,7 +874,7 @@ and (orientation : landscape) {
 	.price-box {
 		margin-bottom: 30px;
 	}
-	#client img {
+	.info-section img {
 		margin: 10px 0 10px;
 	}	
 	.contact-left {
@@ -923,8 +932,11 @@ and (orientation : landscape) {
 	.landing-text p {
 		font-size: 16px !important; 
 	}
-	#intro {
+	div.section {
 		padding-top: 50px;
+	}
+	div.post {
+		padding-top: 17px;
 	}
 	#policy {
 		padding-top: 50px;
@@ -975,7 +987,7 @@ and (orientation : landscape) {
 
 /* smart phone width: 360px ----------- */
 @media (max-width: 360px) {
-	#intro h2, #feature h2, #feature-2 h2 {
+	div.section h2, #feature h2, #feature-2 h2 {
 		font-size: 30px;
 	}
 	.feat-list i {
